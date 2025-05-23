@@ -24,6 +24,13 @@ function App(){
           }
         }>Subtract</button>
 
+        <button onClick={ 
+          () => {
+            setValue(value+3);
+
+          }
+        }>Add 3</button>
+
 
       </> 
 
